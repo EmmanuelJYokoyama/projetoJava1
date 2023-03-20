@@ -1,3 +1,13 @@
+/* *******************************************************************
+ * Colegio Técnico Antônio Teixeira Fernandes (Univap)
+ * Curso Técnico em Informática - Data de Entrega: 20/03/2023
+ * Autores do Projeto: Emmanuel Yokoyama
+ *                     Isaac de Oliveira
+ * Turma: 3h  Disciplina: POO-II
+ * Avaliação parcial referente ao 1 - Bimestre
+ * 
+ * naoaguentomais.java
+ * ******************************************************************/
 public class naoaguentomais{
         public static void main(String args[]){
 
@@ -21,7 +31,7 @@ public class naoaguentomais{
                       x = x+2;
                       aux += x;
                    }
-                   System.out.println("-------------------------------")             ;
+                   System.out.println("-------------------------------");
                    
                }
                
