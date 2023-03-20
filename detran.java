@@ -23,7 +23,7 @@ public class detran {
         int interior = 0;
         int mulherMenos21 = 0;
         for(int i=0;i<=args.length-1;i+=3){
-        
+            sexo = Integer.parseInt(args[i+1]);                                    
             ano =  Integer.parseInt(args[i]);
             idade = 2023-ano;
             if(idade<21){
@@ -35,7 +35,6 @@ public class detran {
                 mais60++;
             }
             
-            sexo = Integer.parseInt(args[i+1]);
             if(sexo==2){
               mulher++;
             }else{
